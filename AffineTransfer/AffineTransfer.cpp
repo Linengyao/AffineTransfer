@@ -11,6 +11,7 @@ int main()
 	cv::Mat	srcMat = cv::imread("E:\\课程\\大二下\\数字图像处理\\lena.jpg", 1);
 	if (srcMat.empty())	return -1;
 
+
 	//变换前的四点坐标
 	cv::Point2f pts1[] = {
 						cv::Point2f(150,150),
